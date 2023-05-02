@@ -10,5 +10,15 @@ word = input('단어를 입력하세요: ')
 
 #print(is_palin) # 회문 판별값 출력
 
-# 2.시퀀스 뒤집기로 문자 검사하기 
-print(word == word[::-1]) # 원래 문자열과 반대로 뒤집은 문자열 비교
+# 2. 시퀀스 뒤집기로 문자 검사하기 
+#print(word == word[::-1]) # 원래 문자열과 반대로 뒤집은 문자열 비교
+
+
+# 3. 리스트와 reversed 사용하기
+
+#word = 'level'
+if list(word) == list(reversed(word)):
+    print('True')
+else:
+    print('False')
+ 
