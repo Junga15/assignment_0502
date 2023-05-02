@@ -1,33 +1,8 @@
 # assignment_0502
 
 
-# git-practice
+# abstract
+회문(palindrome)은 순서를 거꾸로 읽어도 제대로 읽은 것과 같은 단어와 문장을 말합니다. 예를 들면 "level", "SOS", "rotator", "nurses run"과 같은 단어와 문장이 있지요.
 
-Abstract: This project is to practice git.
-[See Demo](https://www.google.com/)
-## Vim modes
-
-- Normal mode: press `esc` on ANY mode
-- Insert mode: press `i` on Normal mode
-- Visual mode: press `v` on Normal mode
-- Command mode: press `:` on Normal mode
-
-## Installation
-
-```shell
-$ git clone {repo address}
-$ cd {repo name}
-$ vi README.md
-```
-
-## How to start
-
-```python
-def hello(name):
-    print(f'hello, {name}')
-hello('John Doe')
-```
-
-## Features
-
+그럼 문자열이 회문인지 판별하려면 어떻게 해야 할까요? 먼저 회문을 잘 살펴보면 첫 번째 글자와 마지막 글자가 같습니다. 그리고 안쪽으로 한 글자씩 좁혔을 때 글자가 서로 같으면 회문입니다.
 
